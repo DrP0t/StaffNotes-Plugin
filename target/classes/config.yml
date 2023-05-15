@@ -1,0 +1,26 @@
+# Staff Notes Plugin Configuration
+
+# Database configuration
+database:
+  # Enter the URI of your MongoDB database below.
+  uri: "mongodb://localhost:27017/staff_notes"
+
+# Command configuration
+command:
+  # Enable or disable the Staff Notes command
+  enabled: true
+
+# Permission configuration
+permissions:
+  # Permission required to use the Staff Notes command
+  note: "staffnotes.note"
+
+# Message configuration
+messages:
+  prefix: "&6[StaffNotes]&f "
+  help:
+    - "&6/notes &f- Show plugin help"
+    - "&6/notes add &f[player] [NoteTitle] [note] &f- Add a note for a player"
+    - "&6/notes remove &f[player] [NoteTitle] &f- Remove a note for a player"
+    - "&6/notes edit &f[player] [NoteTitle] [newnote] &f- Edit a note for a player"
+    - "&6/notes lookup &f[player] &f- Display player notes"

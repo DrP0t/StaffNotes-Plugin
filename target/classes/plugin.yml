@@ -1,0 +1,10 @@
+name: StaffNotes
+version: '1.0-SNAPSHOT'
+main: me.drpot.staffnotes.StaffNotes
+author: DrPot
+description: Staff notes management plugin (My first one <3)
+commands:
+  notes:
+    description: Manage staff notes.
+    usage: /notes <subcommand> [arguments]
+    permission: staffnotes.note
