@@ -5,11 +5,6 @@ database:
   # Enter the URI of your MongoDB database below.
   uri: "mongodb://localhost:27017/staff_notes"
 
-# Command configuration
-command:
-  # Enable or disable the Staff Notes command
-  enabled: true
-
 # Permission configuration
 permissions:
   # Permission required to use the Staff Notes command
